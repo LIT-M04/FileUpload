@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Stuff.DAta.Stuff>
+
+<form method="POST" action="/stuff/submit" enctype="multipart/form-data">
+    <div class="row">
+        <div class="col-md-3">
+            <input type="text" class="form-control" placeholder="Word" name="word" />
+        </div>
+        <div class="col-md-3">
+            <input type="file" class="form-control" placeholder="Image" name="image" />
+        </div>
+        <div class="col-md-3">
+            <button class="btn btn-primary btn-block">Submit</button>
+        </div>
+    </div>
+</form>
+
+<table class="table table-hover table-bordered">
+    <tr>
+        <th>Image</th>
+        <th>Word</th>
+    </tr>
+    @foreach (Stuff.DAta.Stuff s in Model)
+    {
+        <tr>
+            <td>
+                <img src="/Images/@s.Image" style="height: 100px;" />
+            </td>
+            <td>@s.Word</td>
+        </tr>
+    }
+</table>

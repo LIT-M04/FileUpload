@@ -1,0 +1,4 @@
+c:\users\alexfriedman\documents\visual studio 2013\Projects\MvcApplication29\Stuff.DAta\bin\Debug\Stuff.DAta.dll
+c:\users\alexfriedman\documents\visual studio 2013\Projects\MvcApplication29\Stuff.DAta\bin\Debug\Stuff.DAta.pdb
+c:\users\alexfriedman\documents\visual studio 2013\Projects\MvcApplication29\Stuff.DAta\obj\Debug\Stuff.DAta.dll
+c:\users\alexfriedman\documents\visual studio 2013\Projects\MvcApplication29\Stuff.DAta\obj\Debug\Stuff.DAta.pdb
